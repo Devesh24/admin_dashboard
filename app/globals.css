@@ -117,7 +117,7 @@ body {
   /* TYPOGRAPHY */
   /* 64 */
   .h1-bolder {
-    @apply font-black text-[60px] leading-[72px] md:text-[72px] md:leading-[96px] lg:text-[96px] lg:leading-[110px] xl:text-[116px] xl:leading-[130px];
+    @apply font-black text-[50px] leading-[72px] md:text-[72px] md:leading-[96px] lg:text-[96px] lg:leading-[110px] xl:text-[116px] xl:leading-[130px];
   }
 
   .h1-bold {
