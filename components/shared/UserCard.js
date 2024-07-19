@@ -19,7 +19,7 @@ const UserCard = ({user}) => {
                 </div>
             </div>
             <div className='flex flex-col gap-1 text-right text-sm'>
-                <p>{user.email}</p>
+                <p className='hidden md:block'>{user.email}</p>
                 <p>{user.city}, {user.state}</p>
             </div>
         </Link>
