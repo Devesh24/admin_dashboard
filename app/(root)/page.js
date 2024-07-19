@@ -53,19 +53,19 @@ export default function Home() {
         <div className="w-full min-h-screen bg-gray-200 py-16" id="analytics">
             <div className="wrapper min-h-screen w-full flex flex-col gap-6">
                 <div className="flex-center flex-wrap xl:flex-nowrap w-full gap-6">
-                    <div className="xl:w-[25%] lg:w-[35%] md:w-[45%] w-[70%] bg-white flex-center flex-col gap-2  text-center py-6 px-16 rounded-xl">
+                    <div className="xl:w-[25%] lg:w-[35%] md:w-[45%] w-[90%] bg-white flex-center flex-col gap-2  text-center py-6 px-16 rounded-xl">
                         <p className="p-bold-24 underline underline-offset-2">TOTAL NO. OF USERS</p>
                         <p className="h1-bold text-red-600"><CountUp end={totalUsers} /></p>
                     </div>
-                    <div className="xl:w-[25%] lg:w-[35%] md:w-[45%] w-[70%] bg-white flex-center flex-col gap-2  text-center py-6 px-16 rounded-xl">
+                    <div className="xl:w-[25%] lg:w-[35%] md:w-[45%] w-[90%] bg-white flex-center flex-col gap-2  text-center py-6 px-16 rounded-xl">
                         <p className="p-bold-24 underline underline-offset-2">TOTAL NO. OF TASKS</p>
                         <p className="h1-bold text-red-600"><CountUp end={totalTasks} /></p>
                     </div>
-                    <div className="xl:w-[25%] lg:w-[35%] md:w-[45%] w-[70%] bg-white flex-center flex-col gap-2  text-center py-6 px-16 rounded-xl">
+                    <div className="xl:w-[25%] lg:w-[35%] md:w-[45%] w-[90%] bg-white flex-center flex-col gap-2  text-center py-6 px-16 rounded-xl">
                         <p className="p-bold-24 underline underline-offset-2">COMPLETED TASKS</p>
                         <p className="h1-bold text-red-600"><CountUp end={completedTasks} /></p>
                     </div>
-                    <div className="xl:w-[25%] lg:w-[35%] md:w-[45%] w-[70%] bg-white flex-center flex-col gap-2  text-center py-6 px-16 rounded-xl">
+                    <div className="xl:w-[25%] lg:w-[35%] md:w-[45%] w-[90%] bg-white flex-center flex-col gap-2  text-center py-6 px-16 rounded-xl">
                         <p className="p-bold-24 underline underline-offset-2">UNREAD NOTIFICATIONS</p>
                         <p className="h1-bold text-red-600"><CountUp end={unreadNotis} /></p>
                     </div>
