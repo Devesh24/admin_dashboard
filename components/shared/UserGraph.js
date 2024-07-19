@@ -3,7 +3,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'rec
 const UserGraph = ({userDataBasedOnRole}) => {
   return (
     <BarChart
-        width={450}
+        width={400}
         height={350}
         data={userDataBasedOnRole}
         margin={{
