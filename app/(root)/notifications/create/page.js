@@ -60,7 +60,7 @@ const CreateNotifications = () => {
             <div className="border border-violet-800 w-[90%] aspect-square rounded-full p-10 flex-center bg-[#190E3466]">
               <div className="rounded-full p-3 bg-violet-950 flex-center aspect-square">
                 <Image
-                  src={"/assets/images/vector.png"}
+                  src={"/assets/images/Vector.png"}
                   alt="bell"
                   width={200}
                   height={200}
